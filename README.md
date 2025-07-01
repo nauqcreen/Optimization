@@ -43,3 +43,62 @@ The model was built and solved using open-source tools, following this workflow:
 | **4. Environment** | `Google Colab` | A cloud-based environment to run the code without complex local setup. |
 
 ## 📁 Directory Structure
+## 🚀 Setup & Run Guide
+
+To reproduce the project's results, follow these steps:
+
+1.  **Clone the Repository** (Remember to replace with your actual repo URL)
+    ```bash
+    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+    cd your-repo-name
+    ```
+
+2.  **Install Required Libraries**
+    ```bash
+    pip install pandas pulp
+    ```
+
+3.  **Run the Model**
+    Open the `notebooks/Repatriation_MILP_Model.ipynb` file in Google Colab or Jupyter Notebook and run all cells. Ensure the path to the data file in `data/` is correct.
+
+---
+
+## 📈 Key Results & Analysis
+
+The model found an optimal solution with the following main characteristics:
+
+| Metric | Value | Analysis |
+| :--- | :--- | :--- |
+| **Total Priority Score** | **22,110** | The maximum achievable "humanitarian value" score. |
+| **Total Citizens Repatriated**| **2,211** | The number of people brought home in one planning period. |
+| **Aircraft Fleet Utilization** | **8 / 8 (100%)** | All available aircraft were deployed and operated at full capacity. |
+| **Quarantine Facility Utilization** | **2,211 / 5,000 (44.22%)** | Significant surplus in quarantine capacity. |
+
+### 💡 Key Insight: Where is the Bottleneck?
+
+<div align="center">
+
+> The analysis reveals that **transportation capacity (the number of aircraft) is the primary system bottleneck**, not quarantine capacity. This implies that to repatriate more people, investing in increasing the aircraft fleet would be more effective than expanding quarantine facilities.
+
+</div>
+
+---
+
+## ⚠️ Model Limitations
+
+1.  **Static Model**: Only considers a single planning period and does not capture the dynamic, long-term nature of the actual campaign.
+2.  **Estimated Data**: The input data was synthesized from public sources, not official operational data.
+3.  **Simplification**: The model excludes complex real-world factors such as costs, flight routing, and diplomatic procedures.
+
+## 🧑‍💻 Author
+
+| Name | Student ID | Class |
+| :--- | :--- | :--- |
+| **Quan Manh NGUYEN** | `21070555` | BDA2021B |
+
+---
+<div align="center">
+A report for the course **INS3048 - Optimization in Quantitative Management** <br>
+**Vietnam National University, Hanoi - International School** <br>
+_June, 2025_
+</div>
