@@ -49,17 +49,18 @@ To reproduce the project's results, follow these steps:
 
 1.  **Clone the Repository** (Remember to replace with your actual repo URL)
     ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-    cd your-repo-name
+    git clone [https://github.com/nauqcreen/optimization.git](https://github.com/nauqcreen/optimization.git)
+    cd optimization
+    cd repatriation scheduling
     ```
 
 2.  **Install Required Libraries**
     ```bash
-    pip install pandas pulp
+    pip install pandas pulp openpyxl
     ```
 
 3.  **Run the Model**
-    Open the `notebooks/Repatriation_MILP_Model.ipynb` file in Google Colab or Jupyter Notebook and run all cells. Ensure the path to the data file in `data/` is correct.
+    Open the `repatriation scheduling.ipynb` file in Google Colab or Jupyter Notebook and run all cells. Ensure the path to the data file in `data/` is correct.
 
 ---
 
