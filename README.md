@@ -60,7 +60,7 @@ To reproduce the project's results, follow these steps:
     ```
 
 3.  **Run the Model**
-    Open the `repatriation scheduling.ipynb` file in Google Colab or Jupyter Notebook and run all cells. Ensure the path to the data file in `data/` is correct.
+    Open the `repatriation scheduling.ipynb` file in Google Colab or Jupyter Notebook and run all cells. Ensure the path to the data file is correct.
 
 ---
 
@@ -87,8 +87,8 @@ The model found an optimal solution with the following main characteristics:
 
 ## ⚠️ Model Limitations
 
-1.  **Static Model**: Only considers a single planning period and does not capture the dynamic, long-term nature of the actual campaign.
-2.  **Estimated Data**: The input data was synthesized from public sources, not official operational data.
+1.  **Static model**: Only considers a single planning period and does not capture the dynamic, long-term nature of the actual campaign.
+2.  **Estimated data**: The input data was synthesized from public sources, not official operational data.
 3.  **Simplification**: The model excludes complex real-world factors such as costs, flight routing, and diplomatic procedures.
 
 ## 🧑‍💻 Author
